@@ -9,7 +9,6 @@
             "email": "ahmedebraheim72@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "prabowosd/laravel-collective-html": "^13.0",
         "nesbot/carbon": "*"
