@@ -1,0 +1,32 @@
+{
+    "name": "ahmed-ebraheim72/html-fields",
+    "description": "a package to help you to make form fields easier to use",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Ahmed Ebraheim",
+            "email": "ahmedebraheim72@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "prabowosd/laravel-collective-html": "^13.0",
+        "nesbot/carbon": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "HtmlFields\\": "src/"
+        },
+        "files": [
+            "src/fieldLoader.php",
+            "src/filesAttachment.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HtmlFields\\HtmlFieldsServiceProvider"
+            ]
+        }
+    },
+}
