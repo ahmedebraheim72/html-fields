@@ -1,6 +1,6 @@
 {
     "name": "ahmed-ebraheim72/html-fields",
-    "description": "a package to help you to make form fields easier to use",
+    "description": "a package to help you to make form fields easier to use in laravel 13",
     "type": "library",
     "license": "MIT",
     "authors": [
