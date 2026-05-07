@@ -1,7 +1,6 @@
 {
     "name": "ahmed-ebraheim72/html-fields",
     "description": "a package to help you to make form fields easier to use",
-    "type": "composer-plugin",
     "authors": [
         {
             "name": "Ahmed Ebraheim",
